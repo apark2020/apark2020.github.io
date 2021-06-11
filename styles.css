@@ -10,4 +10,10 @@ p{
 }
 img{
     float: right;
+    margin-right: 50px;
+}
+.bottom{
+    font-family: RobotoThin;
+    margin:auto;
+    font-size:10px;
 }
