@@ -13,11 +13,16 @@ img{
     margin-right: 50px;
 }
 .bottom{
+    margin-left: 400px;
+    margin-right: 400px;
     font-family: RobotoThin;
-    margin:auto;
-    font-size:10px;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-evenly;
-    margin-top: 300px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 500px;
+    align-content: stretch;
+    align-items: center;
 }
+
