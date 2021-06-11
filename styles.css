@@ -1,4 +1,8 @@
-@font-face { font-family: RobotoMono; src: url('RobotoMono.ttf'); } 
+@font-face { font-family: RobotoMono; src: url('fonts/RobotoMono.ttf'); } 
+@font-face { font-family: RobotoThin; src:url('fonts/RobotoThin.ttf')}
 h1{
     font-family: RobotoMono;
+}
+p{
+    font-family:RobotoThin;
 }
