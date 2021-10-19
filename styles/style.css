@@ -10,23 +10,23 @@ h2{
 }
 h3{
     font-family: RobotoThin;
-    margin-top: calc(40%/14.816);
-    margin-bottom: calc(15%/14.816);
+    margin-top: calc(40%/9.20);
+    margin-bottom: calc(15%/9.20);
 }
 .exception{
     margin-bottom:0%;
 }
 body p{
     font-family: RobotoLight;
-    margin-bottom:calc(25%/14.816);
+    margin-bottom:calc(25%/9.20);
 }
 body{
     margin-left:calc(375%/14.816);
     margin-right:calc(375%/14.816);   
 }
 img{
-    margin-top: calc(15%/14.816);
-    margin-bottom: calc(15%/14.816);
+    margin-top: calc(15%/9.20);
+    margin-bottom: calc(15%/9.20);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -34,7 +34,7 @@ img{
 .bottom{
     margin:auto;
     font-family: RobotoThin;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 15px;
     display: flex;
     flex-direction: row;
@@ -45,7 +45,7 @@ img{
     width:calc(400%/14.816);
 }
 .intro{
-    margin-bottom:calc(10%/14.816);
+    margin-bottom:calc(10%/9.20);
 }
 .genderimgs{
   display: grid;
@@ -57,7 +57,7 @@ img{
 .exp{
     display: inline-block;
     margin-top:0%;
-    margin-bottom:calc(5%/14.816);
+    margin-bottom:calc(5%/9.20);
 }
 .genderdisparity h3{
     margin-top:calc(10%/14.816);
