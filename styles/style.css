@@ -10,23 +10,23 @@ h2{
 }
 h3{
     font-family: RobotoThin;
-    margin-top: 40px;
-    margin-bottom: 15px;
+    margin-top: calc(40%/14.816);
+    margin-bottom: calc(15%/14.816);
 }
 .exception{
-    margin-bottom:0px;
+    margin-bottom:0%;
 }
 body p{
     font-family: RobotoLight;
-    margin-bottom:25px;
+    margin-bottom:calc(25%/14.816);
 }
 body{
-    margin-left:375px;
-    margin-right:375px;   
+    margin-left:calc(375%/14.816);
+    margin-right:calc(375%/14.816);   
 }
 img{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: calc(15%/14.816);
+    margin-bottom: calc(15%/14.816);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -35,44 +35,44 @@ img{
     margin:auto;
     font-family: RobotoThin;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 20px;
     align-content: stretch;
     align-items: center;
-    width:400px;
+    width:calc(400%/14.816);
 }
 .intro{
-    margin-bottom:10px;
+    margin-bottom:calc(10%/14.816);
 }
 .genderimgs{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 60%;
-  grid-column-gap: 20px;
+  grid-column-gap: calc(20%/14.816);
   margin:auto;
 }
 .exp{
     display: inline-block;
-    margin-top:0px;
-    margin-bottom:5px;
+    margin-top:0%;
+    margin-bottom:calc(5%/14.816);
 }
 .genderdisparity h3{
-    margin-top:10px;
+    margin-top:calc(10%/14.816);
 }
 .genderdisparity img{
-    margin-bottom:0px;
+    margin-bottom:0%;
 }
 .genderimgs img {
   width: 100%;
-  margin-top:0px;
-  margin-bottom:0px;
+  margin-top:0%;
+  margin-bottom:0%;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: calc(650%/14/816)) {
     img {
-         width: 180px;
-         height:200px;
+         width: calc(180%/14.816);
+         height:calc(200%/14.816);
     }
 }
