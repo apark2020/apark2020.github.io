@@ -39,7 +39,7 @@ object{
   }
   .legend h5{
     margin-top:5px;
-    font-size: 11px;
+    font-size: 12px;
   }
     
   .legend div span {
@@ -54,8 +54,8 @@ body p{
     margin-bottom:calc(25%/9.20);
 }
 body{
-    margin-left:calc(375%/12.5);
-    margin-right:calc(375%/12.5);   
+    margin-left:calc(375%/15);
+    margin-right:calc(375%/15);   
 }
 img{
     margin-top: calc(15%/9.20);
