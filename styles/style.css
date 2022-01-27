@@ -18,16 +18,16 @@ h3{
 }
 object{
     display: block;
-    width:450px;
-    height:550px;
+    width:500px;
+    height:625px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom:-15px;
+    
 }
 .legend {
     background-color: #fff;
     font: 12px/20px RobotoMono;
-    width:400px;
+    width:450px;
     margin-left:auto;
     margin-right:auto;
     z-index: 1;
