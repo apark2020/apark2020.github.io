@@ -16,7 +16,39 @@ h3{
 .exception{
     margin-bottom:0%;
 }
-
+object{
+    display: block;
+    width:450px;
+    height:550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:-15px;
+}
+.legend {
+    background-color: #fff;
+    font: 12px/20px RobotoMono;
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    z-index: 1;
+    margin-bottom:-10px;
+  }
+    
+  .legend h4 {
+    margin: 0 0 10px;
+  }
+  .legend h5{
+    margin-top:5px;
+    font-size: 11px;
+  }
+    
+  .legend div span {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin-right: 5px;
+    width: 10px;
+  }
 body p{
     font-family: RobotoLight;
     margin-bottom:calc(25%/9.20);
@@ -80,39 +112,7 @@ img{
   margin-top:0%;
   margin-bottom:0%;
 }
-object{
-    display: block;
-    width:450px;
-    height:550px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom:-15px;
-}
-.legend {
-    background-color: #fff;
-    font: 12px/20px RobotoMono;
-    width:400px;
-    margin-left:auto;
-    margin-right:auto;
-    z-index: 1;
-    margin-bottom:-10px;
-  }
-    
-  .legend h4 {
-    margin: 0 0 10px;
-  }
-  .legend h5{
-    margin-top:5px;
-    font-size: 11px;
-  }
-    
-  .legend div span {
-    border-radius: 50%;
-    display: inline-block;
-    height: 10px;
-    margin-right: 5px;
-    width: 10px;
-  }
+
 @media screen and (max-width: calc(650%/14/816)) {
     img {
          width: calc(180%/14.816);
