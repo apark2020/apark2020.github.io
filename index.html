@@ -2,19 +2,49 @@
 <html>
 <head>
 <title>Andrew Park</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-<h1>Andrew Park</h1>
+<div class = "header">
+    <div class = "name1">
+        <h1>Andrew Park</h1>
+    </div>
+    <div class = "name2">
+        <p><a href="mailto:ajp2259@columbia.edu">Email</a></p>
+        <p>||</p>
+        <p><a href="AndrewPark_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></p>
+        <p>||</p>
+        <p><a href="https://github.com/apark2020" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+        <p>||</p>
+        <p><a href="https://twitter.com/androo_park" target="_blank" rel="noopener noreferrer">Twitter</a></p>
+        <p>||</p>
+        <p><a href="https://www.linkedin.com/in/andrew-park-b4b3bb1b8/" target="_blank" rel="noopener noreferrer">Linkedin</a></p>
+    </div>
+</div>
 <div class="intro">
-    <p>Hi! I'm a sophomore at Columbia University studying Mathematics, Economics, and Computer Science. I'm also the <a href="https://graphicsdesk.github.io" target="_blank" rel="noopener noreferrer">Graphics</a> Editor at the Columbia Daily Spectator, where I've worked on data visualization and reporting using tools such as pandas, Illustrator, and Javascript.</p>
+    <p>Hi! I'm a sophomore at Columbia University studying Mathematics and Computer Science. I'm also the <a href="https://graphicsdesk.github.io" target="_blank" rel="noopener noreferrer">Graphics</a> Editor at the Columbia Daily Spectator, where I've worked on data visualization and reporting using tools such as pandas, Illustrator, and Javascript.</p>
 
 </div>
-    <h2>Some projects I've worked on</h2>
+    <div class ="fit">
+        <h2>Some projects I've worked on</h2>
+    </div>
+    <div class="fit" id="wh">
+        <h3><a href="https://www.columbiaspectator.com/news/2022/02/22/demographic-shift-shakes-west-harlem-amid-a-surge-of-luxury-developments/" target="_blank" rel="noopener noreferrer">Demographic shift shakes West Harlem amid a surge of luxury developments</a></h3>
+        <p>Mapped four different variables found in the American Community Survey 5-Year estimates from 2010, 2015, and 2019. The variables mapped are the % of population with high school degrees, the poverty rate, the median rent, and the % of population spending >35% of their income on rent. The data is broken up by census tract. Map created with Mapbox Studio and Javascript.</p>
+    </div>
+    <div class="wh-gentrification">
+        <iframe src="./html/hsd1.html"></iframe>
+        <iframe src="./html/pov.html"></iframe>
+        <iframe src="./html/nrent.html"></iframe>
+        <iframe src="./html/rinc.html"></iframe>
+    </div>
+    <div class ="fit">
         <div class="groceriesmap">
             <h3><a href="https://www.columbiaspectator.com/news/2022/01/26/west-harlem-residents-face-stark-disparities-in-neighborhood-access-to-healthy-food/" target="_blank" rel="noopener noreferrer">West Harlem residents face stark disparities in neighborhood access to healthy food</a></h3>
-            <p>Mapped retail food stores in New York City Council District 7, and classified them into three categories: fresh produce-carrying supermarkets, convenience stores, and Top 30 national food chains. Data sourced from <a href="https://www.columbiaspectator.com/sports/2021/03/26/we-have-work-to-do-examining-columbia-athletics-persistent-gender-disparity-in-team-funding/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+            <p>Mapped retail food stores in New York City Council District 7, and classified them into three categories: fresh produce-carrying supermarkets, convenience stores, and Top 30 national food chains. Map created with Mapbox Studio and Javascript.
             <div id="store-legend" class="legend">
                 <h4>Store Types</h4>
                 <div><span style="background-color: #4fd50b"></span>Grocery stores</div>
@@ -22,7 +52,7 @@
                 <div><span style="background-color: #e40c0c"></span>Top 50 American fast-food chains</div>
                 <h5>Click on a point for more information about the store.</h5>
               </div>
-            <object data="html/groceriesmap.html"></object>
+            <iframe src="./html/groceriesmap.html"></iframe>
         </div>
         <div class="genderdisparity">
             <h3><a href="https://www.columbiaspectator.com/sports/2021/03/26/we-have-work-to-do-examining-columbia-athletics-persistent-gender-disparity-in-team-funding/" target="_blank" rel="noopener noreferrer">Gender Disparity in Collegiate Athletics Funding</a></h3>
@@ -62,18 +92,13 @@
             <p>Analyzed yearly changes in the salaries of 26 NYPD officers with complaints filed against them.
                 Part of a <a href="https://www.columbiaspectator.com/news/2020/09/22/what-happened-to-nypd-officers-who-were-charged-with-misconduct-they-were-promoted-or-paid-more/" target="_blank" rel="noopener noreferrer">Columbia Daily Specator article</a> awarded finalist in the Society of Professional Journalists Mark of Excellence In-Depth Reporting (Large) category. Data was sourced from <a href="https://github.com/graphicsdesk/50-A" target="_blank" rel="noopener noreferrer"><a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i" target="_blank" rel="noopener noreferrer">NYPD Complaint Data</a> on NYC Open Data, <a href="https://data.cityofnewyork.us/City-Government/Citywide-Payroll-Data-Fiscal-Year-/k397-673e" target="_blank" rel="noopener noreferrer">Citywide Payroll Records</a> (also on NYC Open Data), and <a href="https://www.columbiaspectator.com/news/2020/09/22/what-happened-to-nypd-officers-who-were-charged-with-misconduct-they-were-promoted-or-paid-more/" target="_blank" rel="noopener noreferrer">CAPStat</a>.</p>
         </div>
+    </div>
+        <script src="../scripts/pov.js"></script>
+        <script src="../scripts/hsd1.js"></script>
+        <script src="../scripts/rinc.js"></script>
+        <script src="../scripts/nrent.js"></script>
 </body>
 
 
-<div class = "bottom">
-    <p><a href="mailto:ajp2259@columbia.edu">Email</a></p>
-    <p>||</p>
-    <p><a href="AndrewPark_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></p>
-    <p>||</p>
-    <p><a href="https://github.com/apark2020" target="_blank" rel="noopener noreferrer">GitHub</a></p>
-    <p>||</p>
-    <p><a href="https://twitter.com/androo_park" target="_blank" rel="noopener noreferrer">Twitter</a></p>
-    <p>||</p>
-    <p><a href="https://www.linkedin.com/in/andrew-park-b4b3bb1b8/" target="_blank" rel="noopener noreferrer">Linkedin</a></p>
-</div>
+
 </html>

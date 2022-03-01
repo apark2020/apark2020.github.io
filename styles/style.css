@@ -16,13 +16,42 @@ h3{
 .exception{
     margin-bottom:0%;
 }
-object{
+iframe{
     display: block;
     width:500px;
     height:625px;
     margin-left: auto;
     margin-right: auto;
+    border: 0px;    
     
+}
+.header{
+    margin-left:calc(375%/15);
+    margin-right:calc(375%/15);   
+}
+#wh.fit p{
+    margin-bottom: calc(45%/9.20);
+}
+.OfficerSalaries{
+    margin-bottom: calc(65%/9.20);
+}
+.wh-gentrification{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: calc(50%/9.20);
+}
+.wh-gentrification iframe{
+    width:500px;
+    float:left;
+    border: 0.5px solid black;
+}
+.wh-gentrification iframe:last-child{
+    float:left;
+    margin-bottom: calc(50%/9.20);
+}
+.groceriesmap{
+    margin-bottom: calc(40%/9.20);
 }
 .legend {
     background-color: #fff;
@@ -53,7 +82,7 @@ body p{
     font-family: RobotoLight;
     margin-bottom:calc(25%/9.20);
 }
-body{
+.fit{
     margin-left:calc(375%/15);
     margin-right:calc(375%/15);   
 }
@@ -88,6 +117,8 @@ img{
 }
 .intro{
     margin-bottom:calc(10%/9.20);
+    margin-left:calc(375%/15);
+    margin-right:calc(375%/15);  
 }
 .genderimgs{
   display: grid;
@@ -118,4 +149,14 @@ img{
          width: calc(180%/14.816);
          height:calc(200%/14.816);
     }
+}
+.name1{
+    display: inline-block;
+}
+.name2{
+    margin-left: 50px;
+    display: inline-block;
+}
+.name2 p{
+    display: inline-block;
 }

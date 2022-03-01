@@ -38,6 +38,12 @@
     Add an event listener that runs
     when a user clicks on the map element.
     */
+    map.on('mousemove', (e) => {
+      map.getCanvas().style.cursor = 'pointer';
+    });
+    map.on('mouseleave',function () {
+        map.getCanvas().style.cursor = '';
+    });
     map.on('click', (event) => {
       // If the user clicked on one of your markers, get its information.
       const features = map.queryRenderedFeatures(event.point, {
