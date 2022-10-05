@@ -16,6 +16,15 @@ h3{
 .exception{
     margin-bottom:0%;
 }
+.slide{
+    display:block;
+    width:50%;
+    float:left;
+}
+#nofloat{
+    clear: both;
+    float:none;
+}
 iframe{
     display: block;
     width:500px;
