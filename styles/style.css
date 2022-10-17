@@ -97,7 +97,7 @@ body p{
     margin-left:calc(375%/15);
     margin-right:calc(375%/15);   
 }
-img{
+img, video{
     margin-top: calc(15%/9.20);
     margin-bottom: calc(15%/9.20);
     display: block;
