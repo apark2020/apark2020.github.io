@@ -133,7 +133,7 @@ img, video{
 }
 .genderimgs{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 60%;
   grid-column-gap: calc(20%/14.816);
   margin:auto;

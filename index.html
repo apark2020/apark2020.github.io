@@ -33,7 +33,7 @@
     <div class="fit">
         <h3><a href="https://www.sfchronicle.com/projects/2023/california-big-melt-water/" target="_blank" rel="noopener noreferrer">The Big Melt Transformed California. A journey down a great river shows how</a></h3>
         <p>Produced various react components (including the video topper pictured below) and data visualizations for the SF Chronicle's piece covering the impact of historic preiciptation in the Bay Area. Built w/ React + Gatsby + Illustrator.</p>
-            <video muted loop width="85%" id="meltvid" preload="none">
+            <!-- <video muted loop width="85%" id="meltvid" preload="none">
                 <source src="videos/bigmelt.mov">
                 Your browser does not support the video tag.
                 <script>
@@ -42,7 +42,34 @@
                     videoE.pause();
                     videoE.play();
                 </script>
-            </video>
+            </video> -->
+            <img src="images/bigmelt.gif" alt="Three different graphs: a stacked bar graph depicting disparity in Men's and Women's team expenses at every Ivy League school, a diverged bar graph where the % difference in men's and women's team expenditures for each sport are visualized, a line chart tracking the growth in average coach salaries for Men's and Women's teams at Columbia since 2008 to 2021." style="width:75%">
+        <div class="expandtext" text-align="center">
+            <p id="exp" style="text-align:center">Click any image below to expand (video will download).</p>
+        </div>
+        <div class="genderimgs">
+            <a href="images/stackedbargraph.png">
+                <img src="images/riverflow.jpeg" alt="stacked" style="width:100%">
+               </a>
+            <a href="images/divergedbargraph.png">
+                <img src="images/snowpack.jpeg" alt="diverged" style="width:100%">
+            </a>
+            <a href="images/salarylinegraph.png">
+                <img src="images/hydroelec.jpeg" alt="salary" style="width:100%">
+            </a>
+            <a href="videos/bigmelt.mov">
+                <video muted loop width="85%" id="meltvid" preload="none">
+                    <source src="videos/bigmelt.mov">
+                    Your browser does not support the video tag.
+                    <script>
+                        videoE=document.getElementById("meltvid");
+                        videoE.play();
+                        videoE.pause();
+                        videoE.play();
+                    </script>
+                </video>
+            </a>
+        </div>
     </div>
     <div class="fit">
         <h3><a href="https://www.columbiaspectator.com/sports/2022/10/18/with-improved-homecoming-performances-in-the-bagnoli-era-columbia-football-looks-to-continue-success-this-year/" target="_blank" rel="noopener noreferrer">With improved Homecoming performances in the Bagnoli era, Columbia football looks to continue success this year</a><span><a class="trophy-link" href="https://www.spj.org/moe22.asp" target="_blank" rel="noopener noreferrer">🏆</a></span></h3>
@@ -132,7 +159,7 @@
             <a href="images/salarylinegraph.png">
                 <img src="images/salarylinegraph.png" alt="salary" style="width:100%">
             </a>
-          </div>
+        </div>
         <div class="foodgentrification">
             <h3><a href="https://www.columbiaspectator.com/arts-and-entertainment/2021/06/17/the-changing-food-landscape-how-the-columbia-area-shifted-from-mom-and-pop-restaurants-to-a-hotspot-for-chains-and-trendy-eats/" target="_blank" rel="noopener noreferrer">Food Gentrification in Morningside Heights</a></h3>
             <p>Built an interactive d3 table with data tracking the rapid chainification of the restaurant landscape
