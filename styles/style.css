@@ -1,17 +1,14 @@
 @font-face { font-family: RobotoReg; src: url('../fonts/Roboto-Regular.ttf'); } 
 @font-face { font-family: RobotoLight; src: url('../fonts/Roboto-Light.ttf')}
 html{
-    background-color:#fcfcf7;
-}
-h1{
-    font-family: "HelveicaNeue", "Helvetica Neue", Helvetica;
-    margin-bottom:0;
+    background-color:#f3f6fe;
 }
 h3{
     font-family: RobotoLight;
     margin-top:12px;
     margin-bottom: calc(15%/9.20);
     font-size:24px;
+    line-height: 1.23em;
 }
 a{
     text-decoration: none;
@@ -22,18 +19,19 @@ a{
     float:left;
 }
 .header{
-    display:flex;
-    flex-wrap:nowrap;
-    width:50%;
-    margin-left:10%;
-    align-items:center;
+    display:grid;
+    grid-template-columns: auto 50%;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 0% 3%;
 }
-.header p{
+.header-resume{
     font-family:RobotoReg;
-    font-size:14px;
+    font-size:24px;
     margin-left:3px;
-    /* margin-left:2px;
-    margin-top:20px; */
+    text-align: right;
+    margin-bottom: 0;
 }
 .grid-cont{
     padding-left:3%; 
@@ -42,7 +40,7 @@ a{
     margin-left:auto;
     margin-right:auto;
     display:grid;
-    grid-template-columns:42.5% 42.5%;
+    grid-template-columns:45% 45%;
     grid-column-gap:10%;
     grid-row-gap: 15px;
 }
@@ -148,9 +146,23 @@ a:hover{
         grid-row-gap:8px;
     }
 }
-
-
 .trophy-link{
     text-decoration:none !important;
     margin-left:5px;
+}
+.intro span{
+    text-wrap: nowrap;
+}
+
+.grid-item span{
+    text-wrap: nowrap;
+}
+
+.header-name{
+    font-family: "HelveicaNeue", "Helvetica Neue", Helvetica;
+    bottom: 0;
+    font-size: 28px;
+    font-weight: 700;
+    text-align:left;
+    margin-bottom: 0;
 }
