@@ -20,7 +20,7 @@ a{
 }
 .header{
     display:grid;
-    grid-template-columns: auto 50%;
+    grid-template-columns: auto 30%;
     width: 80%;
     margin-left:auto;
     margin-right:auto;
@@ -137,19 +137,6 @@ a:hover{
     }
 }
 
-@media screen and (max-width:425px){
-    .intro p{
-        font-size:17px;
-        line-height:1.5rem;
-    }
-    .grid-cont{
-        grid-row-gap:8px;
-    }
-}
-.trophy-link{
-    text-decoration:none !important;
-    margin-left:5px;
-}
 .intro span{
     text-wrap: nowrap;
 }
@@ -166,3 +153,35 @@ a:hover{
     text-align:left;
     margin-bottom: 0;
 }
+
+@media screen and (max-width:425px){
+    .intro p{
+        font-size:17px;
+        line-height:1.5rem;
+    }
+    .grid-cont{
+        grid-row-gap:8px;
+    }
+
+    .header-name{
+        font-size: 24px;
+    }
+
+    .header-resume{
+        font-size: 22px;
+    }
+}
+.trophy-link{
+    text-decoration:none !important;
+    margin-left:5px;
+}
+
+.intro span{
+    text-wrap: wrap;
+}
+
+.grid-item span{
+    text-wrap: wrap;
+}
+
+
