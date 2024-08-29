@@ -170,18 +170,18 @@ a:hover{
     .header-resume{
         font-size: 22px;
     }
+
+    .intro span{
+        text-wrap: wrap;
+    }
+    
+    .grid-item span{
+        text-wrap: wrap;
+    }
 }
 .trophy-link{
     text-decoration:none !important;
     margin-left:5px;
-}
-
-.intro span{
-    text-wrap: wrap;
-}
-
-.grid-item span{
-    text-wrap: wrap;
 }
 
 
